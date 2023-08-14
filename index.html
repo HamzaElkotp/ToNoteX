@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>ToNoteX</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/src/bulma.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/src/customtheme.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/src/main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/src/all.min.css'>
+    <link rel="icon" type="image/x-icon" href="/assets/logo/">
+</head>
+
+<body>
+
+    <header class="nav is-flex is-justify-content-space-between container">
+        <button class="navBtn" id="addNote"><i class="fa-solid fa-plus"></i></button>
+        <div class="control has-icons-right search" id="searchBar">
+            <input class="input is-small grey" type="text" placeholder="Search...">
+            <span class="icon is-right">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </span>
+        </div>
+        <button class="navBtn" id="settings"><i class="fa-solid fa-gears"></i></button>
+    </header>
+
+    <div class="contentBox">
+        <h1 class="has-text-weight-semibold is-theme-text-w20 is-size-35 logo">
+            <span class="is-theme-text-lg30">T</span>oNoti<span class="is-theme-text-g80 has-text-weight-bold is-size-25">X</span>
+        </h1>
+
+        <div class="block">
+            <div class="columns is-multiline">
+
+                <div class="column is-half-tablet is-one-third-desktop note" note="">
+                    <div class="box">
+                        <div class="is-flex is-justify-content-space-between">
+                            <div class="date">10 Aug</div>
+                            <button class="noteMenubtn"><i class="fa-solid fa-ellipsis"></i></button>
+                        </div>
+                        <div class="noteContent">
+                            <p>ef if mfm fm fm ofo  m fo ofo f</p>
+                        </div>
+                    </div>
+                    <div class="noteMenu" id="noteMenu">
+                        <button class="has-text-danger"><i class="fa-solid fa-trash-can"></i> Delete</button>
+                    </div>
+                </div>
+
+                <div class="column is-half-tablet is-one-third-desktop note" note="">
+                    <div class="box">
+                        <div class="is-flex is-justify-content-space-between">
+                            <div class="date">10 Aug</div>
+                            <button class="noteMenubtn"><i class="fa-solid fa-ellipsis"></i></button>
+                        </div>
+                        <div class="noteContent">
+                            <p>ee tt rr</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>
+<script src='app.js'></script>
