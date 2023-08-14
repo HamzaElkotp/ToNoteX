@@ -1,0 +1,70 @@
+html, body{
+    background-color: var(--dark70) !important;
+    overflow-x: hidden !important;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow: hidden;
+}
+*{
+    box-sizing: border-box;
+    scrollbar-width: thin;
+}
+*:not(i), body, button, input, textarea, .option, input::placeholder, textarea::placeholder{
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+}
+a{
+    text-decoration: none !important;
+}
+button{
+    cursor: pointer;
+}
+
+
+
+.contentBox{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.container{
+    padding-left: 5px;
+    padding-right: 5px;
+    max-width: 100% !important;
+    min-width: 100% !important;
+    margin: 0 !important;
+}
+.columns{
+    margin-top: 12px;
+}
+.columns .column{
+    transition: 0.5s, 0.1s opacity;
+    display: block;
+}
+.columns .column.hide{
+    opacity: 0;
+}
+.columns .column.hide.none{
+    display: none;
+}
+.logo {
+    pointer-events: none;
+}
+
+
+
+
+
+
+
+/* .list li{
+    list-style:decimal !important;
+} */
+/* .is-size-55 {
+    font-size: 1.15rem !important;
+} */
+/* img {
+    height: auto;
+    width: 100%;
+} */
